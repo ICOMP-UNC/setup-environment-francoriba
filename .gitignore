@@ -1,0 +1,38 @@
+# Compiled object files
+*.o
+
+# Executables
+*.exe
+*.out
+
+# Compiled libraries
+*.a
+*.so
+
+# Disable for now
+*.cmake
+
+# Build directory
+/build/
+
+# External directoy
+/external/
+
+# Doxygen Documentation
+/docs/html/
+
+# Dependency files
+*.d
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+
+# Sonar scanner files
+/.scannerwork/
+/sonarqube/postgresql/
+/sonarqube/postgresql_data/
+/sonarqube/sonarqube_data/
+/sonarqube/sonarqube_extensions/
+/sonarqube/sonarqube_logs/
+/sonarqube/sonar-project.properties
