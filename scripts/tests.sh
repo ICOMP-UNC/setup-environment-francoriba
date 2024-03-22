@@ -20,7 +20,4 @@ echo "Building project..."
 ninja
 
 echo "Executing tests..."
-ctest --test-dir tests -VV
-
-echo "Executing coverage analysis..."
-gcovr -r /home/franco/operativos2/setup-environment-francoriba .
+ctest -T Test -o test_report.xml --test-dir tests -VV

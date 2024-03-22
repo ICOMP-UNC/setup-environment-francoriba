@@ -34,4 +34,4 @@ echo "## ./so2_lab0"
 ./so2_lab0
 
 # Delete the build directory
-rm -r ../build
+#rm -r ../build

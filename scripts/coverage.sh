@@ -2,7 +2,7 @@
 
 echo ""
 
-# Buscar el directorio "build" 
+# Search for 'build' directory
 if [ -d "../build" ]; then
     echo "## Found directory 'build' in $(pwd)"
     echo "## Deleting build directory..."
@@ -19,8 +19,6 @@ cd ../build && cmake -GNinja -DRUN_COVERAGE=1 ..
 echo "Building project..."
 ninja
 
-echo "Executing tests..."
-ctest --test-dir tests -VV
-
 echo "Executing coverage analysis..."
+ctest --test-dir tests
 gcovr -r /home/franco/operativos2/setup-environment-francoriba .
