@@ -29,7 +29,7 @@
 .idea/
 
 # Sonar scanner files
-/sonarqube/.scannerwork/
+/.scannerwork/
 /sonarqube/postgresql/
 /sonarqube/postgresql_data/
 /sonarqube/sonarqube_data/
